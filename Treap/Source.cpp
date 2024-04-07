@@ -2,8 +2,8 @@
 #include<iostream>
 using namespace std;
 int main() {
-	Treap tree;
-	tree.add(7, 4);
+	Treap<double> tree;
+	tree.add(7., 4.);
 	tree.print();
 	cout << endl;
 	tree.add(13, 2);
